@@ -1,10 +1,10 @@
-##🎮 Minecraft CCI Stream Setup
+## 🎮 Minecraft CCI Stream Setup
 This repo shares my Content Creator Integration (CCI) setup for Minecraft 1.20.1 (Forge 47.4.0), used on my Twitch channel (llorenzo_exe). It helps streamers connect StreamElements events to in-game actions like spawning sheep, cats, or zombie hordes with viewers' names! 🐑💥
 My goal is to make it easy for you to set up CCI and bring your streams to life. Follow the guide below, copy my events, and start creating epic Minecraft moments!
 be awere of one thing. ALL of the messages' displayed in the chat will be in ITALIAN. You can change them very easily
 
 
-##📜 My Stream Events
+## 📜 My Stream Events
 Follow: 1 sheep named after the follower.
 Subscription (1 month): 1 cat named after the subscriber, tamed to llorenzo_exe.
 Gifted Sub/Donation (100 bits = 1€):
@@ -15,7 +15,7 @@ Gifted Sub/Donation (100 bits = 1€):
 Raid or Host: 1 zombie per viewer (up to 50), named "RaidZombie".
 
 
-##🛠️ Setup Guide
+## 🛠️ Setup Guide
 Requirements
 
 Minecraft 1.20.1 with Forge 47.4.0 (download).
@@ -40,20 +40,20 @@ streamElementsTokens = ["your_jwt_token_here"]
 streamElementsWebsocketTokens = ["your_jwt_token_here"]
 
 
-##🐞 Troubleshooting
+## 🐞 Troubleshooting
 
 No mobs? Ensure cheats are enabled in your world.
 No events? Verify the StreamElements token and WebSocket in /cci edit > Connections.
 Errors? Check .minecraft/logs/latest.log.
 
 
-##🤝 Contribute
+## 🤝 Contribute
 Have a cool CCI setup? Share it in GitHub Discussions or on my Twitch! Let’s make streaming better together! 🌟
 
-##😎 Support
+## 😎 Support
 If this helps, visit my Twitch channel and maybe spawn a sheep or two! 🐾 Star this repo ⭐ to share with others!
 
-##📜 License
+## 📜 License
 MIT License
 
 ## Created by:
