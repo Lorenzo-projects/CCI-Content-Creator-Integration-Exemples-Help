@@ -85,5 +85,5 @@ If this helped you, drop by my Twitch channel and maybe spawn a sheep or two! ðŸ
 ## ðŸ‘¤ Created by
 
 * **Discord:** .lorenzo_.
-* **Instagram:** [llorenzo\_exe]([https://www.instagram.com/llorenzo.exe/])
+* **Instagram:** [llorenzo\_exe](https://www.instagram.com/llorenzo.exe/)
 * **Twitch:** [llorenzo\_exe](https://twitch.tv/llorenzo_exe)
