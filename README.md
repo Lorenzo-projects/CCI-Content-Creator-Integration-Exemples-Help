@@ -47,11 +47,9 @@ Follow the guide below, copy my events, and start creating epic Minecraft moment
    - Get your JWT token from **StreamElements Dashboard > Profile > Show secrets**  
    - Edit `.minecraft/config/contentcreatorintegration.toml`:
 
-   ```toml
    [socket]
    streamElementsTokens = ["your_jwt_token_here"]
    streamElementsWebsocketTokens = ["your_jwt_token_here"]
-````
 
 ---
 
@@ -86,6 +84,6 @@ If this helped you, drop by my Twitch channel and maybe spawn a sheep or two! ðŸ
 
 ## ðŸ‘¤ Created by
 
-* **Discord:** .lorenzo\_.
-* **Twitch & Instagram:** [llorenzo\_exe](https://twitch.tv/llorenzo_exe)
-* **AI Help:** Claude.ai (Sonnet 4.0)
+* **Discord:** .lorenzo_.
+* **Instagram:** [llorenzo\_exe]([https://www.instagram.com/llorenzo.exe/])
+* **Twitch:** [llorenzo\_exe](https://twitch.tv/llorenzo_exe)
