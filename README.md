@@ -45,11 +45,9 @@ Follow the guide below, copy my events, and start creating epic Minecraft moment
    - Follow the official guide: [CCI Docs](https://content-creator-integration.readthedocs.io/en/latest/gettingstarted/)  
    **OR**  
    - Get your JWT token from **StreamElements Dashboard > Profile > Show secrets**  
-   - Edit `.minecraft/config/contentcreatorintegration.toml`:
-     
-   socket
-   streamElementsTokens = ["your_jwt_token_here"]
-   streamElementsWebsocketTokens = ["your_jwt_token_here"]
+   - Edit `.minecraft/config/contentcreatorintegration.toml`
+    - streamElementsTokens = ["your_jwt_token_here"]
+    - streamElementsWebsocketTokens = ["your_jwt_token_here"]
 
 ---
 
