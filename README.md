@@ -46,8 +46,8 @@ Follow the guide below, copy my events, and start creating epic Minecraft moment
    **OR**  
    - Get your JWT token from **StreamElements Dashboard > Profile > Show secrets**  
    - Edit `.minecraft/config/contentcreatorintegration.toml`:
-
-   [socket]
+     
+   socket
    streamElementsTokens = ["your_jwt_token_here"]
    streamElementsWebsocketTokens = ["your_jwt_token_here"]
 
