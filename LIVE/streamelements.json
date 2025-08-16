@@ -1,0 +1,668 @@
+{
+  "configs": [
+    {
+      "types": {
+        "cheer": [
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Ehi $streamer, $user ti ha appena inviato $amount bits!",
+                "type": "chat"
+              },
+              {
+                "condition": {
+                  "amount": 500.0,
+                  "type": "amount"
+                },
+                "outcome": {
+                  "outcomes": [
+                    {
+                      "times": "7",
+                      "outcome": {
+                        "command": "/summon zombie ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "3",
+                      "outcome": {
+                        "command": "/summon skeleton ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    }
+                  ],
+                  "type": "multiple"
+                },
+                "type": "conditional"
+              },
+              {
+                "condition": {
+                  "amount": 1000.0,
+                  "type": "amount"
+                },
+                "outcome": {
+                  "outcomes": [
+                    {
+                      "times": "10",
+                      "outcome": {
+                        "command": "/summon zombie ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "5",
+                      "outcome": {
+                        "command": "/summon skeleton ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "1",
+                      "outcome": {
+                        "command": "/summon witch ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    }
+                  ],
+                  "type": "multiple"
+                },
+                "type": "conditional"
+              },
+              {
+                "condition": {
+                  "amount": 2500.0,
+                  "type": "amount"
+                },
+                "outcome": {
+                  "outcomes": [
+                    {
+                      "times": "15",
+                      "outcome": {
+                        "command": "/summon zombie ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "7",
+                      "outcome": {
+                        "command": "/summon skeleton ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "3",
+                      "outcome": {
+                        "command": "/summon witch ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "1",
+                      "outcome": {
+                        "command": "/summon blaze ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    }
+                  ],
+                  "type": "multiple"
+                },
+                "type": "conditional"
+              },
+              {
+                "condition": {
+                  "amount": 5000.0,
+                  "type": "amount"
+                },
+                "outcome": {
+                  "outcomes": [
+                    {
+                      "times": "20",
+                      "outcome": {
+                        "command": "/summon zombie ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "10",
+                      "outcome": {
+                        "command": "/summon skeleton ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "5",
+                      "outcome": {
+                        "command": "/summon witch ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "3",
+                      "outcome": {
+                        "command": "/summon blaze ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "3",
+                      "outcome": {
+                        "command": "/summon wither_skeleton ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    }
+                  ],
+                  "type": "multiple"
+                },
+                "type": "conditional"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true,
+            "playTime": "20"
+          }
+        ],
+        "communityGiftPurchase": [
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Ehi $streamer, $user ha appena regalato $amount abbonamenti!",
+                "type": "chat"
+              },
+              {
+                "condition": {
+                  "amount": 5.0,
+                  "type": "amount"
+                },
+                "outcome": {
+                  "outcomes": [
+                    {
+                      "times": "7",
+                      "outcome": {
+                        "command": "/summon zombie ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "3",
+                      "outcome": {
+                        "command": "/summon skeleton ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    }
+                  ],
+                  "type": "multiple"
+                },
+                "type": "conditional"
+              },
+              {
+                "condition": {
+                  "amount": 10.0,
+                  "type": "amount"
+                },
+                "outcome": {
+                  "outcomes": [
+                    {
+                      "times": "10",
+                      "outcome": {
+                        "command": "/summon zombie ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "5",
+                      "outcome": {
+                        "command": "/summon skeleton ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "1",
+                      "outcome": {
+                        "command": "/summon witch ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    }
+                  ],
+                  "type": "multiple"
+                },
+                "type": "conditional"
+              },
+              {
+                "condition": {
+                  "amount": 25.0,
+                  "type": "amount"
+                },
+                "outcome": {
+                  "outcomes": [
+                    {
+                      "times": "15",
+                      "outcome": {
+                        "command": "/summon zombie ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "7",
+                      "outcome": {
+                        "command": "/summon skeleton ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "3",
+                      "outcome": {
+                        "command": "/summon witch ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "1",
+                      "outcome": {
+                        "command": "/summon blaze ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    }
+                  ],
+                  "type": "multiple"
+                },
+                "type": "conditional"
+              },
+              {
+                "condition": {
+                  "amount": 50.0,
+                  "type": "amount"
+                },
+                "outcome": {
+                  "outcomes": [
+                    {
+                      "times": "20",
+                      "outcome": {
+                        "command": "/summon zombie ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "10",
+                      "outcome": {
+                        "command": "/summon skeleton ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "5",
+                      "outcome": {
+                        "command": "/summon witch ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "3",
+                      "outcome": {
+                        "command": "/summon blaze ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "3",
+                      "outcome": {
+                        "command": "/summon wither_skeleton ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    }
+                  ],
+                  "type": "multiple"
+                },
+                "type": "conditional"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true,
+            "playTime": "20"
+          }
+        ],
+        "subscriber": [
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Ehi $streamer, $user si è appena abbonato per $amount mesi!",
+                "type": "chat",
+                "weight": 0
+              },
+              {
+                "condition": {
+                  "amount": 1.0,
+                  "type": "amount"
+                },
+                "outcome": {
+                  "command": "/summon cat ~ ~ ~ {Tame:1,Owner:llorenzo_exe,CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                  "executeAsSelf": true,
+                  "type": "command"
+                },
+                "conditionNotMetOutcome": {
+                  "type": "null",
+                  "weight": 0
+                },
+                "type": "conditional",
+                "weight": 0
+              }
+            ],
+            "allowsOtherEventsToTrigger": true,
+            "playTime": "20"
+          }
+        ],
+        "follow": [
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Ehi $streamer, $user ti ha appena seguito!",
+                "type": "chat"
+              },
+              {
+                "command": "/summon minecraft:sheep ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true,
+            "playTime": "20"
+          }
+        ],
+        "host": [
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Ehi $streamer, $user ti ha appena hostato con $amount spettatori!",
+                "type": "chat"
+              },
+              {
+                "times": "$amount",
+                "outcome": {
+                  "command": "/summon zombie ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                  "executeAsSelf": true,
+                  "type": "command"
+                },
+                "type": "repeat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true,
+            "playTime": "20"
+          }
+        ],
+        "raid": [
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Ehi $streamer, $user ti ha appena fatto un raid con $amount raiders!",
+                "type": "chat"
+              },
+              {
+                "times": "$amount",
+                "outcome": {
+                  "command": "/summon zombie ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                  "executeAsSelf": true,
+                  "type": "command"
+                },
+                "type": "repeat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true,
+            "playTime": "20"
+          }
+        ],
+        "tip": [
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Ehi $streamer, $user ti ha appena donato $$amount!",
+                "type": "chat"
+              },
+              {
+                "condition": {
+                  "amount": 5.0,
+                  "type": "amount"
+                },
+                "outcome": {
+                  "outcomes": [
+                    {
+                      "times": "7",
+                      "outcome": {
+                        "command": "/summon zombie ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "3",
+                      "outcome": {
+                        "command": "/summon skeleton ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    }
+                  ],
+                  "type": "multiple"
+                },
+                "type": "conditional"
+              },
+              {
+                "condition": {
+                  "amount": 10.0,
+                  "type": "amount"
+                },
+                "outcome": {
+                  "outcomes": [
+                    {
+                      "times": "10",
+                      "outcome": {
+                        "command": "/summon zombie ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "5",
+                      "outcome": {
+                        "command": "/summon skeleton ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "1",
+                      "outcome": {
+                        "command": "/summon witch ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    }
+                  ],
+                  "type": "multiple"
+                },
+                "type": "conditional"
+              },
+              {
+                "condition": {
+                  "amount": 25.0,
+                  "type": "amount"
+                },
+                "outcome": {
+                  "outcomes": [
+                    {
+                      "times": "15",
+                      "outcome": {
+                        "command": "/summon zombie ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "7",
+                      "outcome": {
+                        "command": "/summon skeleton ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "3",
+                      "outcome": {
+                        "command": "/summon witch ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "1",
+                      "outcome": {
+                        "command": "/summon blaze ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    }
+                  ],
+                  "type": "multiple"
+                },
+                "type": "conditional"
+              },
+              {
+                "condition": {
+                  "amount": 50.0,
+                  "type": "amount"
+                },
+                "outcome": {
+                  "outcomes": [
+                    {
+                      "times": "20",
+                      "outcome": {
+                        "command": "/summon zombie ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "10",
+                      "outcome": {
+                        "command": "/summon skeleton ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "5",
+                      "outcome": {
+                        "command": "/summon witch ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "3",
+                      "outcome": {
+                        "command": "/summon blaze ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    },
+                    {
+                      "times": "3",
+                      "outcome": {
+                        "command": "/summon wither_skeleton ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"$user\\\"}\"}",
+                        "executeAsSelf": true,
+                        "type": "command"
+                      },
+                      "type": "repeat"
+                    }
+                  ],
+                  "type": "multiple"
+                },
+                "type": "conditional"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true,
+            "playTime": "20"
+          }
+        ]
+      },
+      "queue": [
+        "host+subscriber+cheer",
+        "follow"
+      ]
+    }
+  ],
+  "init": [],
+  "type": "streamelements"
+}
